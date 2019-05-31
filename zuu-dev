@@ -1,0 +1,7 @@
+spring.application.name=zuu
+server.port=4001
+eureka.client.serviceUrl.defaultZone=http://localhost:1001/eureka/
+eureka.instance.instance-id=zuul网关服务-6001
+eureka.instance.prefer-ip-address=true
+eureka.instance.lease-renewal-interval-in-seconds=2
+eureka.instance.lease-expiration-duration-in-seconds=5
